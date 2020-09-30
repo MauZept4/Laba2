@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Завдання №2</title>
+</head>
+<body>
+	<h1 size ="+1"; align = "left"><b>Завдання 2 - </b><i><b>Машинний код</b></i></h1>
+	<hr>
+	<font size = "+1"> <div> <b> Умова 1:</b> <var>A</var>= 15tg <sup> 2 </sup><var>2π</var>/<var>x</var>-1/√x+10, <var>B</var> = ln <sup>2</sup>|2x+3| </q> </div> </font>
+	<br><br>
+	<font size = "+1">
+    <strong><i>Розробити:</i></strong> Програму, яка рахує значення змінних <var>A</var> і <var>B</var>. <var>x</var> вводиться з клавіатури</font> 
+    <br>
+    <br>
+    <hr align="left" style = "width: 41%" color = "green" size="10">
+    <font size = "+1"> <b>Умова 2: </b> Перед вами алгоритм сорутвання бульбашкою у мові С++. Знайдіть помилки у н</font>
+    <br>
+    <pre>
+    <code>
+int count = 0;     // К-сть проходів
+	for (int i = 0; i< size; ++i)
+	{
+		for (int j = 0; j< size - i - 1; ++j)
+		{
+			if (a[j] > a[j + 1]) {
+				swap(a[i], a[i + 1]);
+				count++;
+			}
+		}
+	}
+ 
+cout<< "\n" << "Result: " << endl;
+	for (int i = 0; i < size; ++i)
+		cout << a[i] << "\t";
+	cout << endl;
+	cout << "\n" << "counter = " << count << endl;
+ 
+	system("pause");
+	return 0;
+}
+    </code>
+    </pre>
+	<hr align="left" style = "width: 41%" color = "green" size="10"><br> 
+    <font size = "+1"> <b>Умова 3: </b> Спробуйте вивести на екран: </font><br>
+    <pre>
+⠃⣸⡀⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠈⣆⢹⣿⣿⣿⡈⢿⣿⣿⣿⣿
+⠄⢻⡇⠄⢛⣛⣻⣿⣿⣿⣿⣿⣿⣿⣿⡆⠹⣿⣆⠸⣆⠙⠛⠛⠃⠘⣿⣿⣿⣿
+⠄⠸⣡⠄⡈⣿⣿⣿⣿⣿⣿⣿⣿⠿⠟⠁⣠⣉⣤⣴⣿⣿⠿⠿⠿⡇⢸⣿⣿⣿
+⠄⡄⢿⣆⠰⡘⢿⣿⠿⢛⣉⣥⣴⣶⣿⣿⣿⣿⣻⠟⣉⣤⣶⣶⣾⣿⡄⣿⡿⢸
+⠄⢰⠸⣿⠄⢳⣠⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣼⣿⣿⣿⣿⣿⣿⡇⢻⡇⢸
+⢷⡈⢣⣡⣶⠿⠟⠛⠓⣚⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⢸⠇⠘
+⡀⣌⠄⠻⣧⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠛⠛⠛⢿⣿⣿⣿⣿⣿⡟⠘⠄⠄
+⣷⡘⣷⡀⠘⣿⣿⣿⣿⣿⣿⣿⣿⡋⢀⣠⣤⣶⣶⣾⡆⣿⣿⣿⠟⠁⠄⠄⠄⠄
+⣿⣷⡘⣿⡀⢻⣿⣿⣿⣿⣿⣿⣿⣧⠸⣿⣿⣿⣿⣿⣷⡿⠟⠉⠄⠄⠄⠄⡄⢀
+⣿⣿⣷⡈⢷⡀⠙⠛⠻⠿⠿⠿⠿⠿⠷⠾⠿⠟⣛⣋⣥⣶⣄⠄⢀⣄⠹⣦⢹⣿
+	</pre>
+	<hr align="left" style = "width: 41%" color = "green" size="10"><br> 
+    <font size = "+1"> <b>Умова 4: </b> Оформлення цитат і визначень: </font>
+    <br>
+    <br>
+    <font size = "+1"><abbr title="англ. National Football League, укр. Національна футбольна ліга">  NFL  </abbr>— професіональна ліга Північної Америки, яка об'єднує команди США з американського футболу.</font>
+    <h3><center> Приклади цитат:</center></h3>
+    <font size = "+1"> 1) Відомий актор Кіану Рівз казав: <q>Щоб отримати від життя те, чого прагнеш, в першу чергу потрібно вияснити, чого ти прагнеш.</q> </font>
+    <br>
+    <br>
+    <font size = "+1"> 2) <q>Краще бути похмурим мрійником, ніж безглуздим тусовщиком </q>,– Курт Кобейн. </font>
+    <blockquote> <font size = "+1">Існує дві мети для керування людьми:
+    			<br> 
+    			Перший - це вигода для себе, а другий - це гроші.
+    </font>
+    </blockquote>
+    <cite> <font size = "+1"> http://vsviti.com.ua/ </font> </cite>
+    <br>
+    <br>
+    <hr style = "color:gray">
+    <div align = "center"; size = "+1">© Виконавець студент 243 групи, Адамчук Михайло Анатолійович</div>
+    <hr style = "color:gray">
+</body>
+</html>
